@@ -1,9 +1,13 @@
 ---
-post_title: 'まだWordPress5.xのエディタで消耗しているの？'
+ID: 328
+post_title: >
+  まだWordPress5.xのエディタで消耗しているの？
+author: killinsun
+post_excerpt: ""
 layout: post
+permalink: https://blog.killinsun.com/?p=328
 published: false
 ---
-
 # Gutenbergよ、お前とは仲良くなれそうにない
 
 Wordpress5.0にアップグレードしたらとんでもないことになった。
@@ -90,7 +94,7 @@ _```
 #### プラグインの編集方法
 
 WEB管理画面から編集出来ます。
-ダッシュボード -> プラグイン -> プラグイン編集
+ダッシュボード -&gt; プラグイン -&gt; プラグイン編集
 
 ページ内右上の「編集するプラグインを選択」にて「Crayon SyntaxHighlighter」を選んで「選択」をクリック。
 
