@@ -177,3 +177,34 @@ Settings -> Developper Settings -> Personal access tokensでトークンを作�
 
 wordpress-github-syncの設定画面で「Export to Github」をクリックすると、既存のWordpress記事の内容がGithubリポジトリにpushされます。
 逆にImport from Githubは手動でGithubリポジトリからWordpressに対して同期をかけます。
+
+
+### 投稿してみる
+
+基本以下のような形で投稿しています。
+1. リポジトリをローカル上にクローン
+2. リポジトリ直下に「適当な名前.md」で新規Markdownファイルを作成
+3. Markdownで記事を書いていく
+---
+#### Markdownファイルの先頭に入れる内容
+
+以下のパラメータの挿入が必要です。
+
+```md
+---
+post_title: 記事タイトル
+layout: post
+published: false
+---
+
+#　見出し
+記事内容・・・
+```
+
+- post_title: 記事名
+- layout: たいていの人は「post」のままでOK.　他に何がサポートされているのかよくわからないが、[ここ](https://wpdocs.osdn.jp/投稿タイプ#.E3.83.87.E3.83.95.E3.82.A9.E3.83.AB.E3.83.88.E3.81.AE.E6.8A.95.E7.A8.BF.E3.82.BF.E3.82.A4.E3.83.97)見れば幸せになれるはず。
+- published: true=で公開　false=下書きのまま
+
+---
+4. コミットしてプッシュする
+5. 記事のタグやカテゴリ、画像の挿入はwordpress上で調整
