@@ -1,6 +1,10 @@
 ---
+ID: 400
 post_title: '【Android App for Kotlin #2】画像を取り扱う(ImageView/ImageButton)'
+author: 首無しキリン
+post_excerpt: ""
 layout: post
+permalink: https://blog.killinsun.com/?p=400
 published: false
 ---
 ImageViewとImageButtonの使い方をまとめました。
@@ -29,37 +33,37 @@ app/src/main/res/drawable 内に pngまたはjpgのファイルを格納しま�
 テキストタブでレイアウトやコードの微修正します。
 
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                             xmlns:app="http://schemas.android.com/apk/res-auto"
-                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-                                             android:layout_height="match_parent">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;android.support.constraint.ConstraintLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+                                             xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;
+                                             xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;
+                                             android:layout_height=&quot;match_parent&quot;&gt;
 
-    <ImageView
-            android:id="@+id/imgvIcon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            app:srcCompat="@mipmap/ic_launcher"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/imgbManage"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"  />
-    <ImageButton
-            android:id="@+id/imgbManage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="156dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            app:srcCompat="@android:drawable/ic_menu_manage"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
-</android.support.constraint.ConstraintLayout>
+    &lt;ImageView
+            android:id=&quot;@+id/imgvIcon&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginTop=&quot;8dp&quot;
+            android:layout_marginBottom=&quot;8dp&quot;
+            android:layout_marginStart=&quot;8dp&quot;
+            android:layout_marginEnd=&quot;8dp&quot;
+            app:srcCompat=&quot;@mipmap/ic_launcher&quot;
+            app:layout_constraintTop_toTopOf=&quot;parent&quot;
+            app:layout_constraintBottom_toTopOf=&quot;@+id/imgbManage&quot;
+            app:layout_constraintStart_toStartOf=&quot;parent&quot;
+            app:layout_constraintEnd_toEndOf=&quot;parent&quot;  /&gt;
+    &lt;ImageButton
+            android:id=&quot;@+id/imgbManage&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:layout_marginBottom=&quot;156dp&quot;
+            android:layout_marginStart=&quot;8dp&quot;
+            android:layout_marginEnd=&quot;8dp&quot;
+            app:srcCompat=&quot;@android:drawable/ic_menu_manage&quot;
+            app:layout_constraintBottom_toBottomOf=&quot;parent&quot;
+            app:layout_constraintStart_toStartOf=&quot;parent&quot;
+            app:layout_constraintEnd_toEndOf=&quot;parent&quot;/&gt;
+&lt;/android.support.constraint.ConstraintLayout&gt;
 ```
 
 ## Activityファイル
