@@ -2,14 +2,21 @@
 ID: 400
 post_title: '【Android App for Kotlin #2】画像を取り扱う(ImageView/ImageButton)'
 author: 首無しキリン
-post_excerpt: ""
+post_excerpt: >
+  ImageViewとImageButtonの使い方をまとめました。
 layout: post
 permalink: https://blog.killinsun.com/?p=400
-published: false
+published: true
+post_date: 2019-01-13 22:54:57
 ---
 ImageViewとImageButtonの使い方をまとめました。
 
 <!--more-->
+## 作るもの
+
+<img src="https://blog.killinsun.com/wp-content/uploads/2019/01/02_imgView_Button.gif" alt="" width="640" height="400" class="alignnone size-full wp-image-403" />
+Activity内に`ImageView`と`ImageButton`を配置し、`ImageButton`をタップすると
+`ImageView`の画像が予め用意した画像に変わります。
 
 ## 環境
 
@@ -28,7 +35,18 @@ app/src/main/res/drawable 内に pngまたはjpgのファイルを格納しま�
 
 ## レイアウトファイル
 
+<img src="https://blog.killinsun.com/wp-content/uploads/2019/01/e72e013d37ef3effd4ec5d874cf2be67.png" alt="" width="700" height="430" class="alignnone size-full wp-image-406" />
+<img src="https://blog.killinsun.com/wp-content/uploads/2019/01/3ef7b7ca71fc7ef590fba1c41f3912f3.png" alt="" width="700" height="441" class="alignnone size-full wp-image-407" />
 デザインタブから「Image View」、「ImageButton」を挿入します。
+
+<img src="https://blog.killinsun.com/wp-content/uploads/2019/01/f5d9f66c6b181612c7ed66f2cd044b78.png" alt="" width="700" height="556" class="alignnone size-full wp-image-409" />
+ImageViewやImageButton挿入時、どの画像を使用するか選択するウィザードが表示されます。
+元々入っている画像もあれば、自分で用意した画像を直ぐに利用することも出来ます。
+今回はProjects内の適当な画像を選んでみました。
+
+他にもスパナのアイコンなど、新たに用意する必要のない位デフォルトアイコンの種類が豊富なので、
+最初に画面上部の検索バーから探してみるのも良いかもしれません。
+
 
 テキストタブでレイアウトやコードの微修正します。
 
@@ -89,7 +107,7 @@ class imgActivity : AppCompatActivity(){
 Buttonに関するコードを記述します。
 Buttonをクリックすると、テキストが変わる仕組みです。
 
-### Button [1]、[2]
+### [1]、[2]
 
 `ImageView`クラス、`Image Button`クラスを それぞれ`imgvIcon`、`imgbManage`という名前で宣言します。
 同時に、レイアウトファイルに用意したウィジェットのIDを引っ張ってきます。
@@ -98,7 +116,7 @@ Buttonをクリックすると、テキストが変わる仕組みです。
 - `imgvIcon` ImageView型の定数を`imgvIcon`という名前で用意する
 - `imgbManage` ImageButton型の定数を`imgbManage`という名前で用意する
 
-### Button [3]
+### [3]
 
 ImageButtonクラスが持つメソッド`setOnClickListener`を使って、
 ボタンがタップされた時の動作を記述しています。
@@ -107,7 +125,14 @@ ImageButtonクラスが持つメソッド`setOnClickListener`を使って、
 この時、`imgbManage`(すなわちImageButtonクラス）が
 どんなメソッドを持っているかはここで調べられます。
 
-[public class button](https://developer.android.com/reference/android/widget/Button)
+[Image Button](https://developer.android.com/reference/android/widget/ImageButton)
+
+
+### [4]
+
+`setImageResource`メソッドを使って、　drawableディレクトリ内に格納した
+画像のファイル名を`R.drawable`というキーから指定しています。
+見ての通り、拡張子は指定しません。
 
 ## Activityファイル（別の書き方）
 
@@ -133,7 +158,8 @@ class imgActivity : AppCompatActivity(){
 
 ```
 
-
 次回はListViewです。
+
+
 
 /以上
