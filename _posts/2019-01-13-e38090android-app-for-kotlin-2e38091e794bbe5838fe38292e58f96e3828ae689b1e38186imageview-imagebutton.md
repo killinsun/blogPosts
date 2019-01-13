@@ -158,8 +158,13 @@ class imgActivity : AppCompatActivity(){
 
 ```
 
+## リンク
+
+### 次の記事
 次回はListViewです。
 
+### 前回の記事
+<a href="https://blog.killinsun.com/?p=353">【Android App for Kotlin #1】ボタンウィジェットを使う</a>
 
 
 /以上
