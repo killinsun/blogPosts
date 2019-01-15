@@ -2,17 +2,19 @@
 ID: 418
 post_title: '【Android App for Kotlin #3】ListViewを使う'
 author: 首無しキリン
-post_excerpt: ""
+post_excerpt: >
+  まずはListViewに適当なデータを表示させるシンプルなものを用意しました。
 layout: post
 permalink: https://blog.killinsun.com/?p=418
-published: false
+published: true
+post_date: 2019-01-15 23:15:56
 ---
 まずはListViewに適当なデータを表示させるシンプルなものを用意しました。
 
 <!--more-->
 ## 作るもの
 
-<img src="https://blog.killinsun.com/wp-content/uploads/2019/01/02_imgView_Button.gif" alt="" width="640" height="400" class="alignnone size-full wp-image-403" />
+<img src="https://blog.killinsun.com/wp-content/uploads/2019/01/03_listview.gif" alt="" width="640" height="400" class="alignnone size-full wp-image-421" />
 ListviewActivity.kt内で宣言したString型のコレクションを表示させるListViewです。
 
 ## 環境
@@ -31,6 +33,7 @@ ListviewActivity.kt内で宣言したString型のコレクションを表示さ�
 
 ## レイアウトファイル
 
+<img src="https://blog.killinsun.com/wp-content/uploads/2019/01/3c645c95809a7bda6124f034e0b1eacf.png" alt="" width="1023" height="632" class="alignnone size-full wp-image-420" />
 デザインタブから「ListView」を挿入します。
 Paletteの`Legacy`に入っているので注意しましょう。
 
