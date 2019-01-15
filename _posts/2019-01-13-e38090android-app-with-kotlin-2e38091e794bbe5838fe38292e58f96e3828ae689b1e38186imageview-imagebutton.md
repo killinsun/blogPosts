@@ -1,6 +1,6 @@
 ---
 ID: 400
-post_title: '【Android App for Kotlin #2】画像を取り扱う(ImageView/ImageButton)'
+post_title: '【Android App with Kotlin #2】画像を取り扱う(ImageView/ImageButton)'
 author: 首無しキリン
 post_excerpt: >
   ImageViewとImageButtonの使い方をまとめました。
