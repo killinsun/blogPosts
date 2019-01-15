@@ -161,6 +161,7 @@ class imgActivity : AppCompatActivity(){
 
 ### 次の記事
 次回はListViewです。
+<a href="https://blog.killinsun.com/?p=418">【Android App for Kotlin #3】ListViewを使う</a>
 
 ### 前回の記事
 <a href="https://blog.killinsun.com/?p=353">【Android App for Kotlin #1】ボタンウィジェットを使う</a>
