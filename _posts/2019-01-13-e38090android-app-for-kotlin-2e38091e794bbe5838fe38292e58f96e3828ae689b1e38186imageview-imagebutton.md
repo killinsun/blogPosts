@@ -86,7 +86,7 @@ ImageViewやImageButton挿入時、どの画像を使用するか選択するウ
 ## Activityファイル
 
 ```java
-class imgActivity : AppCompatActivity(){
+class ImgActivity : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
@@ -102,9 +102,6 @@ class imgActivity : AppCompatActivity(){
     }
 }
 ```
-
-Buttonに関するコードを記述します。
-Buttonをクリックすると、テキストが変わる仕組みです。
 
 ### [1]、[2]
 
