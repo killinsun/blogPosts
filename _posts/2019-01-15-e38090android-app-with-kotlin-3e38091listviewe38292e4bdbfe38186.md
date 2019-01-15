@@ -1,6 +1,6 @@
 ---
 ID: 418
-post_title: '【Android App for Kotlin #3】ListViewを使う'
+post_title: '【Android App with Kotlin #3】ListViewを使う'
 author: 首無しキリン
 post_excerpt: >
   まずはListViewに適当なデータを表示させるシンプルなものを用意しました。
