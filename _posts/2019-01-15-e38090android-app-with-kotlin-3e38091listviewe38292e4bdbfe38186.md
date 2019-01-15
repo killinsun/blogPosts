@@ -115,7 +115,7 @@ Kotlin Andorid extentionsが有効であれば、この項目は書かなくて�
 処理が実行されるようにします。
 
 ### 前回の記事
-<a href="https://blog.killinsun.com/?p=400">【Android App for Kotlin #2】画像を取り扱う(ImageView/ImageButton)</a>
+<a href="https://blog.killinsun.com/?p=400">【Android App with Kotlin #2】画像を取り扱う(ImageView/ImageButton)</a>
 
 
 /以上
