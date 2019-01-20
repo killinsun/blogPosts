@@ -113,6 +113,7 @@ Kotlin Andorid extentionsが有効であれば、この項目は書かなくて�
 
 次回はListViewで用意したアイテムにタッチすると
 処理が実行されるようにします。
+<a href="https://blog.killinsun.com/?p=431">【Android App for Kotlin #4】ListViewを使う(2)</a>
 
 ### 前回の記事
 <a href="https://blog.killinsun.com/?p=400">【Android App with Kotlin #2】画像を取り扱う(ImageView/ImageButton)</a>
