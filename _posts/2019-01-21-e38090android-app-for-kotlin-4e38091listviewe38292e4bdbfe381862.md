@@ -5,13 +5,15 @@ author: 首無しキリン
 post_excerpt: ""
 layout: post
 permalink: https://blog.killinsun.com/?p=431
-published: false
+published: true
+post_date: 2019-01-21 08:01:12
 ---
 ListViewの要素をタップした時の動作を追加しました。
 
 <!--more-->
 ## 作るもの
 
+<img src="https://blog.killinsun.com/wp-content/uploads/2019/01/04_listview_touchEvent.gif" alt="" width="640" height="400" class="alignnone size-full wp-image-433" />
 前回の記事で作成したListViewに対し、タップイベントを追加しました。
 
 ## 環境
@@ -25,11 +27,11 @@ ListViewの要素をタップした時の動作を追加しました。
 
 ## 事前準備
 
-前回の記事の成果物を使います。
+<a href="https://blog.killinsun.com/?p=418">前回の記事</a>の成果物を使います。
 
 ## レイアウトファイル
 
-前回の記事で利用したものを使います。
+<a href="https://blog.killinsun.com/?p=418">前回の記事</a>で利用したものを使います。
 
 ## Activityファイル
 
@@ -93,6 +95,6 @@ lvHeroes.setOnItemClickListener{ _, _, position, _ -&gt;
 RecyclerViewについて書きます。
 
 ### 前回の記事
-
+<a href="https://blog.killinsun.com/?p=418">【Android App with Kotlin #3】ListViewを使う</a>
 
 /以上
