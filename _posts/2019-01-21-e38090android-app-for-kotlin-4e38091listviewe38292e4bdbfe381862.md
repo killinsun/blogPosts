@@ -1,100 +1,293 @@
 ---
-ID: 431
-post_title: '【Android App for Kotlin #4】ListViewを使う(2)'
-author: 首無しキリン
-post_excerpt: ""
+post_title: '【Android App for Kotlin #5】RecyclerViewを使う'
 layout: post
-permalink: https://blog.killinsun.com/?p=431
-published: true
-post_date: 2019-01-21 08:01:12
+published: false
 ---
-ListViewの要素をタップした時の動作を追加しました。
+RecyclerViewを一番シンプルかつ実践的な機能で使いました。
 
 <!--more-->
 ## 作るもの
 
-<img src="https://blog.killinsun.com/wp-content/uploads/2019/01/04_listview_touchEvent.gif" alt="" width="640" height="400" class="alignnone size-full wp-image-433" />
-前回の記事で作成したListViewに対し、タップイベントを追加しました。
+ImageViewとTextViewがリスト表示され、
+タップするとTOASTが通知されるシンプルなものです。
 
 ## 環境
 
 このコードは以下の環境で書いています。
 
 - macOS 10.14.2(Mojave)
-- Android Studio 3.2.1
+- Android Studio 3.3 **前回の記事からバージョンップしました**
 - Android SDK 28
 - gradle 4.6
 
 ## 事前準備
 
-<a href="https://blog.killinsun.com/?p=418">前回の記事</a>の成果物を使います。
+特にありません。
 
 ## レイアウトファイル
 
-<a href="https://blog.killinsun.com/?p=418">前回の記事</a>で利用したものを使います。
+### activity_recycler.xml
 
-## Activityファイル
+ここにはRecyclerViewのみ置かれます。
+RecyclerViewの中身は別のレイアウトファイルで定義します。
 
-```Java
-class ListviewActivity: AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?){
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.listview_activity)
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
 
-        val heroes:Array&lt;String&gt; = arrayOf(&quot;Iron Man&quot;, &quot;Captain America&quot;, &quot;Thor&quot;)
-        val realName:Array&lt;String&gt; = arrayOf(&quot;Tony Stark&quot;, &quot;Steve Rogers&quot;, &quot;Thor Odinson&quot;) //追加[1]
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvAvaterList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+</android.support.constraint.ConstraintLayout>
+```
 
-        val adapter = ArrayAdapter&lt;String&gt;(this,android.R.layout.simple_list_item_1, heroes)
-        val lvHeroes: ListView = findViewById(R.id.lvHeroes)
+### item_profile.xml
 
-        lvHeroes.adapter = adapter
+ファイル名はそれっぽい適当な名前です。
+RecyclerViewの１要素を表すレイアウトファイルです。
+最上位のレイアウト（この場合はConstraintLayout)のheightは
+`wrap_content`もしくは固定値にしないと、１要素が１ページ分のサイズになります。
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
 
-        /*
-            追加[2]
-            引数は「parent」、「view」、「position」、「id」の４つで、
-            使用しない引数については「_(アンダースコア)」で省略出来る。
-        */
-        lvHeroes.setOnItemClickListener{ _, _, position, _ -&gt;
-            //タップされたアイテムの位置(Position)をインデックスに配列の中身をToastで表示
-            Toast.makeText(this,realName[position],Toast.LENGTH_SHORT).show()
-        }
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+        <ImageView
+                android:id="@+id/ivAvater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                tools:srcCompat="@mipmap/ic_launcher"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+                android:id="@+id/tvAvtName"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ivAvater"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="@tools:sample/full_names"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+```
+
+## ViewHolder
+
+### AvaterViewHolder.kt
+
+`item_profile`で定義したレイアウト内のウィジェットを
+後述の`Adapter`から利用出来る様に宣言しておくファイルになります。
+また、`インターフェース`を用意してありますが、
+これはタップした際の動作を定義出来るようにしておく受け口になります。
+RecyclerViewの１要素をクラス化しているイメージで捉えています。
+
+```java
+class AvaterViewHolder(view: View): RecyclerView.ViewHolder(view) {
+
+    val ivAvater: ImageView = view.findViewById(R.id.ivAvater)
+    val tvAvtName: TextView = view.findViewById(R.id.tvAvtName)
+
+    /*
+    処理を持たないメソッド（インターフェース）を用意する事で
+    AdapterやActivityで処理が実装出来るようになる
+    */
+    interface ItemInterface{
+        fun onClickItem(position: Int)
     }
 }
 ```
 
-コードの説明に入ります。
+## Adapter
 
-### [1]
+### AvaterAdapter
 
-```java
-val realName:Array&lt;String&gt; = arrayOf(&quot;Tony Stark&quot;, &quot;Steve Rogers&quot;, &quot;Thor Odinson&quot;) //追加
-```
-
-新たに配列を宣言しました。　本来ならばHashMapを用いて`heroes`の要素と一致した
-オブジェクトを作るのが望ましいですが、今回は単純にしました。
-
-### [2]
+`Activity`によって生成(インスタンス化)されます。
+RecyclerViewの要素数分、行データを読み取り、
+`ViewHolder`とレイアウトファイルを紐づけます。
 
 ```java
-lvHeroes.setOnItemClickListener{ _, _, position, _ -&gt;
+class AvaterAdapter(
+        private val avtList:List<String>, 
+        private val ItemListener:AvaterViewHolder.ItemInterface
+        ): RecyclerView.Adapter<RecyclerView.ViewHolder>(){
+
+    override fun getItemCount(): Int{
+        return avtList.size
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
+
+        val layoutInflater = LayoutInflater.from(parent.context)
+        val view: View =  layoutInflater.inflate(R.layout.item_profile, parent, false)
+
+        return AvaterViewHolder(view)
+    }
+
+    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+        val myHolder:AvaterViewHolder = holder as AvaterViewHolder
+
+        myHolder.tvAvtName.text = avtList[position]
+        myHolder.ivAvater.setImageResource(R.mipmap.ic_launcher)
+
+        //テキストをクリックされた時の動作を新規にバインドさせる
+        myHolder.tvAvtName.setOnClickListener{
+            ItemListener.onClickItem(position)
+        }
+
+    }
 }
 ```
 
-`setOnLitemClickListener`を使って、ListView内の単要素をタップされた際の
-アクションイベントを定義しています。
 
-コメントの通り、引数は４つ指定する必要がありますが、Kotlinの場合は`_`で省略出来ます。
-今回は`position`という、**どの要素がタップされたか**を判断する為に使う引数を
-使用しています。
+## Activity
+
+### AvaterAdapter.kt
+
+コードの説明に入ります。
+```java
+class AvaterAdapter(
+        private val avtList:List<String>, 
+        private val ItemListener:AvaterViewHolder.ItemInterface
+        ): RecyclerView.Adapter<RecyclerView.ViewHolder>(){
+```
+第一引数ではActivityから受け取るリスト要素を、
+第二引数では、`AvaterViewHolder`内に宣言したインターフェースを`ItemListener`という名前で待ちます。
+
+```java
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
+
+        val layoutInflater = LayoutInflater.from(parent.context)
+        val view: View =  layoutInflater.inflate(R.layout.item_profile, parent, false)
+
+        return AvaterViewHolder(view)
+    }
+```
+Adapterに与えられたリスト要素（今回は`avtList:List<String>`)から１要素ずつ受け取り、
+viewtypeに応じたRecyclerViewのレイアウトファイルを読み込みます。
+最も、今回の場合は全部同じレイアウトのリストなので、`viewtype`にかかわらず同じ`view`を読み込みます。
+
+もし、複数種類のレイアウトファイルを使い分ける場合は、`getItemViewType`を使います。
+`position`(要素の位置)に応じたviewtypeを返却するメソッドです。
+
+サンプル
+```java
+override fun getItemViewType(position:Int):Int{
+        val VIEW_T_HEADER:Int = 0
+        val VIEW_T_FOOTER:Int = 1
+        val VIEW_T_BODY:Int = 3
+        when(position){
+                //一番最初の要素の場合
+                0 -> {
+                        return VIEW_T_HEADER
+                }
+                //リスト要素と同じサイズ + 1 = 最終行の場合
+                avtList.size + 1 -> {
+                        return VIEW_T_FOOTER
+                }
+                else -> {
+                        return VIEW_T_BODY
+                }
+        }
+}
+```
+
+```java
+    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+        val myHolder:AvaterViewHolder = holder as AvaterViewHolder
+
+        myHolder.tvAvtName.text = avtList[position]
+        myHolder.ivAvater.setImageResource(R.mipmap.ic_launcher)
+
+        //テキストをクリックされた時の動作を新規にバインドさせる
+        myHolder.tvAvtName.setOnClickListener{
+            ItemListener.onClickItem(position)
+        }
+
+    }
+
+```
+要素毎にテキストや画像をバインド（割り当て）しています。
+ここで、`setOnCLickListener`等のメソッドも普通のウィジェット同様に使えるので、
+インターフェース`ItemListener`が持つメソッド`onClickItem`を実行させます。（AvaterViewHolderで用意しましたね）
+
+
+## Activity
+
+### RecyclerActivity.kt
+
+Adapterに比べればここは宣言するだけなので非常にシンプルです。
+```java
+class RecyclerActivity: AppCompatActivity(), AvaterViewHolder.ItemInterface {
+
+    val avtList: List<String> = listOf("John","Pawl","Amanda")
+
+    override fun onCreate(savedInstanceState: Bundle?){
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_recycler)
+
+        rvAvaterList.layoutManager = LinearLayoutManager(this)
+        rvAvaterList.adapter = AvaterAdapter(avtList, this)
+    }
+
+    override fun onClickItem(position: Int) {
+        Toast.makeText(this, "Item Positon:" + position + ", Item:" + avtList[position], Toast.LENGTH_SHORT).show()
+    }
+}
+```
+
+```java
+rvAvaterList.layoutManager = LinearLayoutManager(this)
+```
+
+`activirty_recycler.xml`で用意したRecyclerViewのウィジェットをIDから使用しています。
+layoutManagerというものを定義しています。
+`LinearLayoutManager`と、`GridLayoutManager`の２種類があります。
+前者はListViewのような１行形式のレイアウトで、
+後者は縦横の格子状に要素を持つ事が出来るレイアウトです。
+今回は前者を使います。
+
+```java
+rvAvaterList.adapter = AvaterAdapter(avtList, this)
+```
+先程までで作成したAdapterをこのRecyclerViewに割り当てています。
+１つ目の引数では、このアクティビティクラスのメンバ変数として宣言している`avtList`を、
+２つ目の引数ではアクティビティクラスの戻り値として持つ`AvaterViewHolder`を割り当てています。
+（この辺のつながりが自分でもまだよくわかっていません。わかる方いたらコメントやDMで教えてください。)
+
+長くなりましたが、ここまでで一旦、シンプルなRecyclerViewを
+扱う事が出来たかと思います。
 
 
 ## リンク
 
 ### 次の記事
 
-RecyclerViewについて書きます。
-
 ### 前回の記事
-<a href="https://blog.killinsun.com/?p=418">【Android App with Kotlin #3】ListViewを使う</a>
+<a href="https://blog.killinsun.com/?p=431">【Android App with Kotlin #4】ListViewを使う(2)</a>
 
 /以上
