@@ -131,7 +131,7 @@ RecyclerViewの１要素をクラス化しているイメージで捉えてい�
 
 <h2>Adapter</h2>
 
-<h3>AvaterAdapter</h3>
+<h3>AvaterAdapter.kt</h3>
 
 <code>Activity</code>によって生成(インスタンス化)されます。
 RecyclerViewの要素数分、行データを読み取り、
@@ -169,9 +169,6 @@ RecyclerViewの要素数分、行データを読み取り、
 }
 </code></pre>
 
-<h2>Adapter</h2>
-
-<h3>AvaterAdapter.kt</h3>
 
 コードの説明に入ります。
 
