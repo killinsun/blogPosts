@@ -92,7 +92,7 @@ lvHeroes.setOnItemClickListener{ _, _, position, _ -&gt;
 
 ### 次の記事
 
-RecyclerViewについて書きます。
+<a href="https://blog.killinsun.com/?p=444">【Android App with Kotlin #5】RecyclerViewを使う</a>
 
 ### 前回の記事
 <a href="https://blog.killinsun.com/?p=418">【Android App with Kotlin #3】ListViewを使う</a>
