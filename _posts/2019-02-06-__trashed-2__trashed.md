@@ -169,7 +169,7 @@ RecyclerViewの要素数分、行データを読み取り、
 }
 </code></pre>
 
-<h2>Activity</h2>
+<h2>Adapter</h2>
 
 <h3>AvaterAdapter.kt</h3>
 
