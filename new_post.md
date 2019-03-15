@@ -1,6 +1,5 @@
 ---
-post_title: >
-    転職から一ヶ月経ったので近況とか書いていく
+post_title: 転職から一ヶ月経ったので近況とか書いていく
 layout: post
 published: false
 ---
