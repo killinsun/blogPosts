@@ -3,10 +3,11 @@ ID: 6
 post_title: >
   約２週間ほどでAWS
   SAAを受験した話
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=6
+permalink: >
+  https://blog.killinsun.com/2018/04/i-tried-aws-solution-architect-associate-within-2-weeks/
 published: true
 post_date: 2018-04-23 15:52:40
 ---
