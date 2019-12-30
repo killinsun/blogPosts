@@ -2,10 +2,11 @@
 ID: 154
 post_title: >
   Objective-Cだとどう宣言するんだよ
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=154
+permalink: >
+  https://blog.killinsun.com/2012/11/how-do-i-define-it-by-objective-c/
 published: true
 post_date: 2012-11-29 00:00:00
 ---
