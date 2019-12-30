@@ -1,10 +1,11 @@
 ---
 ID: 167
 post_title: 'トラブル☆しゅーたーず　#5~過去からの贈り物~に参加してきた'
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=167
+permalink: >
+  https://blog.killinsun.com/2013/03/i-joined-an-event-trouble_shooters_5/
 published: true
 post_date: 2013-03-04 02:46:37
 ---
@@ -13,16 +14,16 @@ post_date: 2013-03-04 02:46:37
 3月2日に、西新宿で行われたイベントのレポートです。
 今回はソロ参戦ではなく、学校の後輩と一緒に参加してきました。
 イベントの概要と詳細はこちら。
-<a href="http://www.zusaar.com/event/526059" target="_blank" rel="noopener">トラしゅ</a>
+<a href="http://www.zusaar.com/event/526059" target="_blank" rel="noopener noreferrer">トラしゅ</a>
 
 
 すでに何人か記事書いてくださってます。
 技術的な事とかタメになりそうな事はこちらにございます。
 
-<a href="http://laugh-labo.blogspot.jp/2013/03/05.html?spref=tw" target="_blank" rel="noopener">トラブル☆しゅーたーず＃05 参加してきたので一人反省会的なアレ</a>(@laugh_K様）
-<a href="http://spherera.hatenablog.jp/entry/2013/03/05/001147" target="_blank" rel="noopener">トラブル☆しゅーたーず＃05 ～過去からの贈り物～</a>(@spherera様)
-<a href="http://takuyais.hateblo.jp/entry/2013/03/03/031245" target="_blank" rel="noopener">トラブルしゅーたーず #05に参加</a>(@takuyais様)
-<a href="http://d.hatena.ne.jp/s_kawakami/20130303/1362321332" target="_blank" rel="noopener">トラブル☆しゅーたーず＃05　～過去からの贈り物～」に参加してきました #トラしゅ</a>(@sh_kawakami様)
+<a href="http://laugh-labo.blogspot.jp/2013/03/05.html?spref=tw" target="_blank" rel="noopener noreferrer">トラブル☆しゅーたーず＃05 参加してきたので一人反省会的なアレ</a>(@laugh_K様）
+<a href="http://spherera.hatenablog.jp/entry/2013/03/05/001147" target="_blank" rel="noopener noreferrer">トラブル☆しゅーたーず＃05 ～過去からの贈り物～</a>(@spherera様)
+<a href="http://takuyais.hateblo.jp/entry/2013/03/03/031245" target="_blank" rel="noopener noreferrer">トラブルしゅーたーず #05に参加</a>(@takuyais様)
+<a href="http://d.hatena.ne.jp/s_kawakami/20130303/1362321332" target="_blank" rel="noopener noreferrer">トラブル☆しゅーたーず＃05　～過去からの贈り物～」に参加してきました #トラしゅ</a>(@sh_kawakami様)
 
 <span class="deco" style="font-size: x-large;">概要障害を対応し、報告書を作成せよ。</span>
 あなたはWEB系サービス会社に勤める社員。
@@ -90,17 +91,17 @@ TV放映を乗り切った後、私の技術的にこれ以上何も対処がで
 <h5>全チームの報告書とか</h5>
 &nbsp;
 
-<a href="https://docs.google.com/presentation/d/1OaaAlCKsaaV50xAcFjaklikekiBPDDf3Ecy-L0fc8Dg/edit" target="_blank" rel="noopener">チーム１</a>
-<a href="https://docs.google.com/presentation/d/18CWCkxMCowjeR3tmUiVE_MIp9JgbjpO1UjSQEFpOG3s/edit" target="_blank" rel="noopener">チーム２</a>
-<a href="https://docs.google.com/presentation/d/1WYIYz5oFjqYMlSO1Hf2oIH8ScRlk_leetfE-et8U6ZY/edit" target="_blank" rel="noopener">チーム３</a>
-<a href="https://docs.google.com/presentation/d/1OwI1zGcX31ygGl5Ro4-mpHN0nVESTzpBG9NDhi4w9XQ/edit" target="_blank" rel="noopener">チーム４</a>
-<a href="https://docs.google.com/document/d/1YBntCTEonq0MSulRhl28DV5y4wO_-P1jdeullOPUvxc/edit" target="_blank" rel="noopener">チーム５</a>
+<a href="https://docs.google.com/presentation/d/1OaaAlCKsaaV50xAcFjaklikekiBPDDf3Ecy-L0fc8Dg/edit" target="_blank" rel="noopener noreferrer">チーム１</a>
+<a href="https://docs.google.com/presentation/d/18CWCkxMCowjeR3tmUiVE_MIp9JgbjpO1UjSQEFpOG3s/edit" target="_blank" rel="noopener noreferrer">チーム２</a>
+<a href="https://docs.google.com/presentation/d/1WYIYz5oFjqYMlSO1Hf2oIH8ScRlk_leetfE-et8U6ZY/edit" target="_blank" rel="noopener noreferrer">チーム３</a>
+<a href="https://docs.google.com/presentation/d/1OwI1zGcX31ygGl5Ro4-mpHN0nVESTzpBG9NDhi4w9XQ/edit" target="_blank" rel="noopener noreferrer">チーム４</a>
+<a href="https://docs.google.com/document/d/1YBntCTEonq0MSulRhl28DV5y4wO_-P1jdeullOPUvxc/edit" target="_blank" rel="noopener noreferrer">チーム５</a>
 
 あ、私チーム３です。
 
 運営の方々が写真撮ってくださってました。
 こんな感じの雰囲気（＝お通夜）の中、謝罪会見です。
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20130305023946" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20130305023946j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20130305/20130305023946.jpg" alt="f:id:killinsun:20130305023946j:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20130305023946" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20130305023946j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20130305/20130305023946.jpg" alt="f:id:killinsun:20130305023946j:image" /></a>
 <h5>結果は…</h5>
 なんと、今回　16時のTV放映によるアクセス増加に耐える事ができたのは
 我々のチームだけというのが大きな要因となり、<span class="deco" style="color: #ff0000;">見事優勝する事ができました。</span>
