@@ -5,7 +5,8 @@ author: 首無しキリン
 post_excerpt: >
   ImageViewとImageButtonの使い方をまとめました。
 layout: post
-permalink: https://blog.killinsun.com/?p=400
+permalink: >
+  https://blog.killinsun.com/2019/01/using-imageview-and-imagebutton-with-kotlin-android-part2/
 published: true
 post_date: 2019-01-13 22:54:57
 ---
