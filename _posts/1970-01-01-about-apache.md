@@ -1,10 +1,11 @@
 ---
 ID: 177
 post_title: Apacheの話
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=177
+permalink: >
+  https://blog.killinsun.com/1970/01/about-apache/
 published: true
 post_date: 1970-01-01 00:00:00
 ---
