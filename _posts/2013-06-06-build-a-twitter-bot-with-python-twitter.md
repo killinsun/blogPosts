@@ -2,10 +2,11 @@
 ID: 179
 post_title: >
   python-twitterを使ってTwitterBot開発
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=179
+permalink: >
+  https://blog.killinsun.com/2013/06/build-a-twitter-bot-with-python-twitter/
 published: true
 post_date: 2013-06-06 03:20:28
 ---
@@ -23,7 +24,7 @@ tweetpyだったり、python-twitterだったり、その他いろいろだっ�
 <ul>
  	<li>python-twitter</li>
 </ul>
-<a href="https://code.google.com/p/python-twitter/" target="_blank" rel="noopener">https://code.google.com/p/python-twitter/</a>
+<a href="https://code.google.com/p/python-twitter/" target="_blank" rel="noopener noreferrer">https://code.google.com/p/python-twitter/</a>
 右のDownloadメニューからver 0.8.5をダウンロード。
 
 python-twitterは、他に３種類の依存関係のあるモジュールをインストールしなければならない。
@@ -31,15 +32,15 @@ python-twitterは、他に３種類の依存関係のあるモジュールをイ
 <ul>
  	<li>simplejson</li>
 </ul>
-<a href="http://cheeseshop.python.org/pypi/simplejson" target="_blank" rel="noopener">http://cheeseshop.python.org/pypi/simplejson</a>
+<a href="http://cheeseshop.python.org/pypi/simplejson" target="_blank" rel="noopener noreferrer">http://cheeseshop.python.org/pypi/simplejson</a>
 <ul>
  	<li>httplib2</li>
 </ul>
-<a href="http://code.google.com/p/httplib2/" target="_blank" rel="noopener">http://code.google.com/p/httplib2/</a>
+<a href="http://code.google.com/p/httplib2/" target="_blank" rel="noopener noreferrer">http://code.google.com/p/httplib2/</a>
 <ul>
  	<li>python-oauth2</li>
 </ul>
-<a href="http://github.com/simplegeo/python-oauth2" target="_blank" rel="noopener">http://github.com/simplegeo/python-oauth2</a>
+<a href="http://github.com/simplegeo/python-oauth2" target="_blank" rel="noopener noreferrer">http://github.com/simplegeo/python-oauth2</a>
 <h5>各モジュールのインストール</h5>
 &nbsp;
 
@@ -52,9 +53,9 @@ setup.py　を実行することでインストールできる。
 <h5>OAuth認証のための【鍵】を取得する</h5>
 こちらにアクセス
 twitter developpers
-<a href="https://dev.twitter.com/" target="_blank" rel="noopener">https://dev.twitter.com/</a>
+<a href="https://dev.twitter.com/" target="_blank" rel="noopener noreferrer">https://dev.twitter.com/</a>
 
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20130607023401" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20130607023401p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20130607/20130607023401.png" alt="f:id:killinsun:20130607023401p:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20130607023401" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20130607023401p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20130607/20130607023401.png" alt="f:id:killinsun:20130607023401p:image" /></a>
 ログインしたら画面右上のアイコンをクリックし、My Applicationsを選択
 
 ここでこれから作成するTwitterアプリケーション(=bot)の登録をする。
@@ -77,7 +78,7 @@ Twitterで外部サービスを使う時に、「このアプリを認証する�
 今回は空白でOK
 
 
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20130607023404" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20130607023404p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20130607/20130607023404.png" alt="f:id:killinsun:20130607023404p:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20130607023404" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20130607023404p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20130607/20130607023404.png" alt="f:id:killinsun:20130607023404p:image" /></a>
 上手く作成できればこの画面に飛ぶ。
 ここがTwitter側で自身のアプリケーションを管理するページである。
 ご覧の通り、鍵もここに記載されている。
@@ -87,7 +88,7 @@ Twitterで外部サービスを使う時に、「このアプリを認証する�
 
 上部にある[settings]タブにあるメニューを見れば、どこを編集すればいいかわかるはず。
 
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20130607023405" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20130607023405p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20130607/20130607023405.png" alt="f:id:killinsun:20130607023405p:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20130607023405" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20130607023405p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20130607/20130607023405.png" alt="f:id:killinsun:20130607023405p:image" /></a>
 Detailsタブに戻り、ページ下部にある
 Create my access token　をクリック
 
