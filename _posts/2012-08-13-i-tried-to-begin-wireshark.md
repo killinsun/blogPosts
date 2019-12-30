@@ -1,10 +1,11 @@
 ---
 ID: 148
 post_title: WireShark入門してみました
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=148
+permalink: >
+  https://blog.killinsun.com/2012/08/i-tried-to-begin-wireshark/
 published: true
 post_date: 2012-08-13 23:01:50
 ---
@@ -20,7 +21,7 @@ post_date: 2012-08-13 23:01:50
 <li><span class="hatena-asin-detail-label">発売日:</span> 2011/05/27</li>
 <li><span class="hatena-asin-detail-label">メディア:</span> 大型本</li>
 <li><span class="hatena-asin-detail-label">購入</span>: 4人 <span class="hatena-asin-detail-label">クリック</span>: 62回</li>
-<li><a href="http://d.hatena.ne.jp/asin/4897978750" target="_blank">この商品を含むブログ (5件) を見る</a></li>
+<li><a href="http://d.hatena.ne.jp/asin/4897978750" target="_blank" rel="noopener noreferrer">この商品を含むブログ (5件) を見る</a></li>
 </ul>
 </div>
 <div class="hatena-asin-detail-foot"></div>
@@ -36,7 +37,7 @@ post_date: 2012-08-13 23:01:50
 <li><span class="hatena-asin-detail-label">発売日:</span> 2011/10/22</li>
 <li><span class="hatena-asin-detail-label">メディア:</span> 単行本（ソフトカバー）</li>
 <li><span class="hatena-asin-detail-label">購入</span>: 9人 <span class="hatena-asin-detail-label">クリック</span>: 163回</li>
-<li><a href="http://d.hatena.ne.jp/asin/4873115140" target="_blank">この商品を含むブログ (19件) を見る</a></li>
+<li><a href="http://d.hatena.ne.jp/asin/4873115140" target="_blank" rel="noopener noreferrer">この商品を含むブログ (19件) を見る</a></li>
 </ul>
 </div>
 <div class="hatena-asin-detail-foot"></div>
