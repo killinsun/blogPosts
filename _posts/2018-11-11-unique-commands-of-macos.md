@@ -1,10 +1,11 @@
 ---
 ID: 231
 post_title: macOS 固有CLI コマンド
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=231
+permalink: >
+  https://blog.killinsun.com/2018/11/unique-commands-of-macos/
 published: true
 post_date: 2018-11-11 18:33:21
 ---
