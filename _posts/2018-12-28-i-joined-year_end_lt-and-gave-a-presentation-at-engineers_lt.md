@@ -2,15 +2,16 @@
 ID: 265
 post_title: >
   エンジニアの登壇を応援する会_忘年LTで登壇してきた
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=265
+permalink: >
+  https://blog.killinsun.com/2018/12/i-joined-year_end_lt-and-gave-a-presentation-at-engineers_lt/
 published: true
 post_date: 2018-12-28 10:47:34
 ---
 <h2>お疲れ様でした。</h2>
-<a href="https://techplay.jp/event/705867" target="_blank" rel="noopener">エンジニアの登壇を応援する忘年LT</a>
+<a href="https://techplay.jp/event/705867" target="_blank" rel="noopener noreferrer">エンジニアの登壇を応援する忘年LT</a>
 
 今年最後の締めくくりとして、外部コミュニティで登壇発表という形で、
 私の社内活動実績を簡単にお話させて頂きました。
