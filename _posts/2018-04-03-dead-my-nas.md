@@ -1,10 +1,11 @@
 ---
 ID: 1
 post_title: NASが死んだ
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=1
+permalink: >
+  https://blog.killinsun.com/2018/04/dead-my-nas/
 published: true
 post_date: 2018-04-03 14:57:57
 ---
