@@ -1,10 +1,11 @@
 ---
 ID: 158
 post_title: 現状報告
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=158
+permalink: >
+  https://blog.killinsun.com/2012/09/current-report/
 published: true
 post_date: 2012-09-17 19:24:50
 ---
@@ -20,7 +21,7 @@ post_date: 2012-09-17 19:24:50
 <li><span class="hatena-asin-detail-label">発売日:</span> 2012/06/08</li>
 <li><span class="hatena-asin-detail-label">メディア:</span> 単行本（ソフトカバー）</li>
 <li><span class="hatena-asin-detail-label">購入</span>: 2人 <span class="hatena-asin-detail-label">クリック</span>: 8回</li>
-<li><a href="http://d.hatena.ne.jp/asin/489797898X" target="_blank">この商品を含むブログ (2件) を見る</a></li>
+<li><a href="http://d.hatena.ne.jp/asin/489797898X" target="_blank" rel="noopener noreferrer">この商品を含むブログ (2件) を見る</a></li>
 </ul>
 </div>
 <div class="hatena-asin-detail-foot"></div>
@@ -36,10 +37,10 @@ post_date: 2012-09-17 19:24:50
 <li><span class="hatena-asin-detail-label">発売日:</span> 2011/03/01</li>
 <li><span class="hatena-asin-detail-label">メディア:</span> 単行本</li>
 <li><span class="hatena-asin-detail-label">購入</span>: 119人 <span class="hatena-asin-detail-label">クリック</span>: 4,283回</li>
-<li><a href="http://d.hatena.ne.jp/asin/4797361190" target="_blank">この商品を含むブログ (146件) を見る</a></li>
+<li><a href="http://d.hatena.ne.jp/asin/4797361190" target="_blank" rel="noopener noreferrer">この商品を含むブログ (146件) を見る</a></li>
 </ul>
 </div>
 <div class="hatena-asin-detail-foot"></div>
 </div>
-<p><br><br>2.iPhone5予約しました。<br>16GB白です。<br>なぜ１６GB というと、現状の４で１０GBも使ってないからです<br><br>3.軽音楽部のホームページを編集してました<br>jQuery軽く勉強して、フォトギャラリーとか実装してました。<br>来週中に学校のページに掲載されると思う<br><br>4.<a href="http://www.juas.or.jp/" target="_blank">JUAS</a>の方に質問する内容まとめてました<br><br><br>３番がかなり時間とられてました。<br>引き続き作業再開。。。</p>
+<p><br><br>2.iPhone5予約しました。<br>16GB白です。<br>なぜ１６GB というと、現状の４で１０GBも使ってないからです<br><br>3.軽音楽部のホームページを編集してました<br>jQuery軽く勉強して、フォトギャラリーとか実装してました。<br>来週中に学校のページに掲載されると思う<br><br>4.<a href="http://www.juas.or.jp/" target="_blank" rel="noopener noreferrer">JUAS</a>の方に質問する内容まとめてました<br><br><br>３番がかなり時間とられてました。<br>引き続き作業再開。。。</p>
 </div>
