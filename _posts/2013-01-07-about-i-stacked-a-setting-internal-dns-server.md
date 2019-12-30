@@ -2,10 +2,11 @@
 ID: 163
 post_title: >
   内部DNSサーバーの設定に詰んだ話
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=163
+permalink: >
+  https://blog.killinsun.com/2013/01/about-i-stacked-a-setting-internal-dns-server/
 published: true
 post_date: 2013-01-07 18:19:46
 ---
@@ -25,7 +26,7 @@ post_date: 2013-01-07 18:19:46
 DynamicDNSでドメインを取得して、内部向けDNSサーバーを立てて詰んだ
 
 いつもLinuxのサーバーに関してお世話になってる
-<a href="http://centossrv.com/" target="_blank" rel="noopener">http://centossrv.com/</a>を参考に、BINDの設定をしていた。
+<a href="http://centossrv.com/" target="_blank" rel="noopener noreferrer">http://centossrv.com/</a>を参考に、BINDの設定をしていた。
 
 設定が進んで、上手く起動したはいいが、外部から内部にアクセスできても（DDNSだから当然）
 内部からドメインでサーバーにアクセスできない。
