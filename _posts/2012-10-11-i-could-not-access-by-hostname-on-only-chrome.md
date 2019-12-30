@@ -2,10 +2,11 @@
 ID: 181
 post_title: >
   Chromeだけホスト名でアクセスできなかった　の話
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=181
+permalink: >
+  https://blog.killinsun.com/2012/10/i-could-not-access-by-hostname-on-only-chrome/
 published: true
 post_date: 2012-10-11 00:00:00
 ---
