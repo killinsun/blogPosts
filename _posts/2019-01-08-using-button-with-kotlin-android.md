@@ -4,7 +4,8 @@ post_title: '【Android App with Kotlin #1】ボタンウィジェットを使�
 author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=353
+permalink: >
+  https://blog.killinsun.com/2019/01/using-button-with-kotlin-android/
 published: true
 post_date: 2019-01-08 20:55:16
 ---
