@@ -1,10 +1,11 @@
 ---
 ID: 182
 post_title: イベントを主催してきた
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=182
+permalink: >
+  https://blog.killinsun.com/2014/02/i-hold-an-event/
 published: true
 post_date: 2014-02-28 13:00:00
 ---
@@ -54,7 +55,7 @@ post_date: 2014-02-28 13:00:00
 
 お客様である首無商事株式会社に対し、上司である「キリ☓さん」（この件はトラしゅの「山◯くん」のパクリ）は
 そんなお客様のご意見をヒアリングし、以下のネットワーク図を書きました　（実は不完全）
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140219235233" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20140219235233p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140219/20140219235233.png" alt="f:id:killinsun:20140219235233p:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140219235233" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20140219235233p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140219/20140219235233.png" alt="f:id:killinsun:20140219235233p:image" /></a>
 
 「当日私は不在ですが、CIscoの資格を取得している優秀な部下達に任せます。」
 と答えるも
@@ -75,31 +76,31 @@ LinuxやDELLのスイッチを使って行うことに。
 
 運営からのお楽しみ要素としてレッドブルタワー構築しました（笑）
 SECCON CTFの全国大会でこんな感じだったらしいという画像をみて、ずっとやりたいと思っていました。
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218092957" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20140218092957j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218092957.jpg" alt="f:id:killinsun:20140218092957j:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218092957" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20140218092957j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218092957.jpg" alt="f:id:killinsun:20140218092957j:image" /></a>
 
 運営チームも含め、総勢２５，６名で作業。
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218122430" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20140218122430j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218122430.jpg" alt="f:id:killinsun:20140218122430j:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218122430" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20140218122430j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218122430.jpg" alt="f:id:killinsun:20140218122430j:image" /></a>
 
 CCNPなどの上位資格を持っていても、普段使っているマシンから
 コンソールに入ることが出来ないことに悔しさを感じているチームもありました。
 ケーブルとかって実際目にしたこと無いですからね。
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218122536" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20140218122536j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218122536.jpg" alt="f:id:killinsun:20140218122536j:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218122536" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20140218122536j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218122536.jpg" alt="f:id:killinsun:20140218122536j:image" /></a>
 
 彼らは結構写り慣れてるみたいです（笑）
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218142833" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20140218142833j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218142833.jpg" alt="f:id:killinsun:20140218142833j:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218142833" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20140218142833j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218142833.jpg" alt="f:id:killinsun:20140218142833j:image" /></a>
 
 最後の報告会です。予想以上にお通夜でした。
 彼らはプレゼンテーションの授業が始まっておらず、
 トラしゅのように実際のエンジニアのプレゼンを見ていないのもあり、
 発表の手法に関してはまだまだ改善点が沢山見られましたが、
 報告書そのものは抑えるポイントは抑えてきているようでした。
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218150947" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20140218150947j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218150947.jpg" alt="f:id:killinsun:20140218150947j:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218150947" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20140218150947j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218150947.jpg" alt="f:id:killinsun:20140218150947j:image" /></a>
 
 例によって最後の解答編。
 ここでは、作業においてポイントとなる点、
 実際に現場で出た先生方からの視点での講評や、
 私から後輩に受け継いで欲しいメッセージを熱く語りました。
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218152931" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20140218152931j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218152931.jpg" alt="f:id:killinsun:20140218152931j:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20140218152931" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20140218152931j:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20140218/20140218152931.jpg" alt="f:id:killinsun:20140218152931j:image" /></a>
 <h5>イベントを終えて</h5>
 &nbsp;
 
