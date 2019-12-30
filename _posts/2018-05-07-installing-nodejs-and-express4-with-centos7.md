@@ -1,10 +1,11 @@
 ---
 ID: 34
-post_title: '【WEB開発メモ#1】 CentOS7系にnode.jsとExpress 4をインストールする'
-author: killinsun
+post_title: '【WEB開発メモ#1】 CentOS7系にnode.jsとExpress 4をインストールする'
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=34
+permalink: >
+  https://blog.killinsun.com/2018/05/installing-nodejs-and-express4-with-centos7/
 published: true
 post_date: 2018-05-07 23:05:17
 ---
@@ -74,7 +75,7 @@ Description : Node.js is a platform built on Chrome's JavaScript runtime
 </pre>
 6.x系は古すぎるので、今回はLTS版の8.11.1`をインストールしたいと思います。
 <h4>NodeSourceからインストール</h4>
-この手順では、 <a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener">NodeSource</a> から、結果的に目的のnode.jsをインストールします。
+この手順では、 <a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener noreferrer">NodeSource</a> から、結果的に目的のnode.jsをインストールします。
 
 今回は8.11.1をインストールするので、8系です。
 
@@ -143,7 +144,7 @@ About to write to /usr/local/share/work/package.json:
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" &amp;&amp; exit 1"
+    "test": "echo "Error: no test specified" &amp;&amp; exit 1"
   },
   "author": "",
   "license": "ISC"
