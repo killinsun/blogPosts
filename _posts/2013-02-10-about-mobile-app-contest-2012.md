@@ -1,10 +1,11 @@
 ---
 ID: 166
 post_title: モバイルアプリコンテスト2012
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=166
+permalink: >
+  https://blog.killinsun.com/2013/02/about-mobile-app-contest-2012/
 published: true
 post_date: 2013-02-10 18:19:58
 ---
