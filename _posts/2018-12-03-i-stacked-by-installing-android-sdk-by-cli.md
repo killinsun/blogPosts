@@ -2,10 +2,11 @@
 ID: 259
 post_title: >
   android-sdkをCLIでインストールする際にハマった
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=259
+permalink: >
+  https://blog.killinsun.com/2018/12/i-stacked-by-installing-android-sdk-by-cli/
 published: true
 post_date: 2018-12-03 20:13:12
 ---
