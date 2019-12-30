@@ -3,10 +3,11 @@ ID: 16
 post_title: >
   Passport.jsのDigest認証で詰んだ話（express
   4)
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=16
+permalink: >
+  https://blog.killinsun.com/2018/05/i-stacked-by-digest-auth-with-passportjs-with-express4/
 published: true
 post_date: 2018-05-05 00:03:15
 ---
