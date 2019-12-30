@@ -5,7 +5,8 @@ author: 首無しキリン
 post_excerpt: >
   まずはListViewに適当なデータを表示させるシンプルなものを用意しました。
 layout: post
-permalink: https://blog.killinsun.com/?p=418
+permalink: >
+  https://blog.killinsun.com/2019/01/using-listview-with-kotlin-android-part1/
 published: true
 post_date: 2019-01-15 23:15:56
 ---
