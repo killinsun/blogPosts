@@ -1,10 +1,11 @@
 ---
 ID: 237
 post_title: Go言語ちょっとだけ入門
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=237
+permalink: >
+  https://blog.killinsun.com/2018/11/getting-start-golang/
 published: true
 post_date: 2018-11-25 09:00:37
 ---
