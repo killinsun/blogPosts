@@ -2,16 +2,17 @@
 ID: 153
 post_title: >
   クラス(スーパークラス・サブクラス）
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=153
+permalink: >
+  https://blog.killinsun.com/2012/07/about-super-class-and-sub-class/
 published: true
 post_date: 2012-07-14 14:00:00
 ---
 <br>
 <div class="section">
-<p>基本だけどイメージがよくできないって人いるんじゃないだろうか？<br><br>よく、車が<span style="color:#00FF33;" class="deco">スーパークラス</span>、スポーツカーやトラックが<span style="color:#00FF33;" class="deco">サブクラス</span>って<br>言うじゃん？　あれ会話や言葉で聞くと頭の悪い俺は<br>「…は？」となるわけで。<br><br>図で表すとこんな感じ。<br><a href="http://f.hatena.ne.jp/killinsun/20120901232330" class="hatena-fotolife" target="_blank"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20120901/20120901232330.png" alt="f:id:killinsun:20120901232330p:image" title="f:id:killinsun:20120901232330p:image" class="hatena-fotolife"></a><br>このスーパーカーやらトラックにも、<br>例えばトラックの中だったら<b>軽トラ</b>だったり<b>バン型</b>だったり<b>ダンプ</b>だったり<br>いろいろあるわけだ。<br><br><font size="4">そもそもなんでクラス分けなんかするんだよ</font><br>って言われた事があります。<br>プログラミングって非常に面倒くさいものでして、多くの開発者は使い回ししたがります。<br><br>車は、いろんなステータスがあります。<br>ステータスっていうのは、この車で言えば<br></p>
+<p>基本だけどイメージがよくできないって人いるんじゃないだろうか？<br><br>よく、車が<span style="color:#00FF33;" class="deco">スーパークラス</span>、スポーツカーやトラックが<span style="color:#00FF33;" class="deco">サブクラス</span>って<br>言うじゃん？　あれ会話や言葉で聞くと頭の悪い俺は<br>「…は？」となるわけで。<br><br>図で表すとこんな感じ。<br><a href="http://f.hatena.ne.jp/killinsun/20120901232330" class="hatena-fotolife" target="_blank" rel="noopener noreferrer"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20120901/20120901232330.png" alt="f:id:killinsun:20120901232330p:image" title="f:id:killinsun:20120901232330p:image" class="hatena-fotolife"></a><br>このスーパーカーやらトラックにも、<br>例えばトラックの中だったら<b>軽トラ</b>だったり<b>バン型</b>だったり<b>ダンプ</b>だったり<br>いろいろあるわけだ。<br><br><font size="4">そもそもなんでクラス分けなんかするんだよ</font><br>って言われた事があります。<br>プログラミングって非常に面倒くさいものでして、多くの開発者は使い回ししたがります。<br><br>車は、いろんなステータスがあります。<br>ステータスっていうのは、この車で言えば<br></p>
 <blockquote>
 <p><li>名前</li><br><li>最高速度</li><br><li>燃費</li><br><li>乗車可能な人数</li></p>
 </blockquote><br>
