@@ -5,7 +5,8 @@ author: 首無しキリン
 post_excerpt: >
   RecyclerViewを一番シンプルかつ実践的な機能で使いました。
 layout: post
-permalink: https://blog.killinsun.com/?p=444
+permalink: >
+  https://blog.killinsun.com/2019/02/using-recyclerview-with-kotlin-android/
 published: true
 post_date: 2019-02-06 15:37:19
 ---
