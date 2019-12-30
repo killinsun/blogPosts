@@ -5,7 +5,8 @@ post_title: >
 author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=494
+permalink: >
+  https://blog.killinsun.com/2019/09/ios-framework-build-error/
 published: true
 post_date: 2019-09-29 23:06:48
 ---
