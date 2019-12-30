@@ -2,10 +2,11 @@
 ID: 152
 post_title: >
   オブジェクト指向のクラスとかなんだよっていうアレ
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=152
+permalink: >
+  https://blog.killinsun.com/1970/01/whats-class-of-object-oriented-programming/
 published: true
 post_date: 1970-01-01 00:00:00
 ---
