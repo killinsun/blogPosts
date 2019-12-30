@@ -3,10 +3,11 @@ ID: 128
 post_title: >
   express +
   pugを使ってMariaDB(MySQL)と連携する
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=128
+permalink: >
+  https://blog.killinsun.com/2018/10/using-mariadb-with-express-and-pug/
 published: true
 post_date: 2018-10-08 23:54:42
 ---
