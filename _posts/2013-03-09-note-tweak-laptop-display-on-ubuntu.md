@@ -2,10 +2,11 @@
 ID: 168
 post_title: >
   Ubuntuだとパソコンのディスプレイが見辛かったので調整メモ
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=168
+permalink: >
+  https://blog.killinsun.com/2013/03/note-tweak-laptop-display-on-ubuntu/
 published: true
 post_date: 2013-03-09 03:08:17
 ---
@@ -18,7 +19,7 @@ Windows7やMacを使っている時と画面の文字が明るすぎて見えな
 
 調べたらすぐ出てきた。
 
-<a href="https://forums.ubuntulinux.jp/viewtopic.php?id=4263" target="_blank" rel="noopener">ディスプレイの調整</a>
+<a href="https://forums.ubuntulinux.jp/viewtopic.php?id=4263" target="_blank" rel="noopener noreferrer">ディスプレイの調整</a>
 <blockquote>xgamma -gamma 1.0</blockquote>
 1.0が標準で、0.1単位で指定するといいみたい。
 明るすぎたので、今回は0.7ぐらいに設定するとちょうど良かった。
