@@ -3,10 +3,11 @@ ID: 70
 post_title: >
   Passport.js digest-strategy で
   パスワードを安全に管理する
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=70
+permalink: >
+  https://blog.killinsun.com/2018/05/manage-password-safely-by-passportjs-with-digest-strategypassport-js-digest-strategy/
 published: true
 post_date: 2018-05-18 00:00:34
 ---
