@@ -4,7 +4,8 @@ post_title: 【ISUCON9予選】初参加しました
 author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=483
+permalink: >
+  https://blog.killinsun.com/2019/09/i-attended-isucon9/
 published: true
 post_date: 2019-09-08 21:54:31
 ---
