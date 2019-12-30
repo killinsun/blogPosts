@@ -1,10 +1,11 @@
 ---
 ID: 180
 post_title: 'Mac OSX 10.9- Marvericks使って一週間過ごした感想'
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=180
+permalink: >
+  https://blog.killinsun.com/2013/10/quick-review-using-macos-marvericks-a-week/
 published: true
 post_date: 2013-10-30 03:51:08
 ---
@@ -36,7 +37,7 @@ Marvericksになって一瞬戸惑ったのは、
 <span class="deco" style="font-size: small;">余談ですが、Wi-Fi診断のほうは、Finderバー上部の
 ワイヤレスのアイコンをoptionキー押しながらクリックすると、
 メニューとして表示されます。</span>
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20131031033839" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20131031033839p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20131031/20131031033839.png" alt="f:id:killinsun:20131031033839p:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20131031033839" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20131031033839p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20131031/20131031033839.png" alt="f:id:killinsun:20131031033839p:image" /></a>
 <h5>iWork,iLifeシリーズの改悪が目立つ</h5>
 &nbsp;
 
@@ -46,7 +47,7 @@ pagesに関しては、<span class="deco" style="color: #ff0000;">見開き表�
 操作そのものは簡単に見えるものの、その分機能が削られてる感じ。
 
 AppsStoreのpagesのレビューが阿鼻叫喚でした。
-<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20131031033838" target="_blank" rel="noopener"><img class="hatena-fotolife" title="f:id:killinsun:20131031033838p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20131031/20131031033838.png" alt="f:id:killinsun:20131031033838p:image" /></a>
+<a class="hatena-fotolife" href="http://f.hatena.ne.jp/killinsun/20131031033838" target="_blank" rel="noopener noreferrer"><img class="hatena-fotolife" title="f:id:killinsun:20131031033838p:image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/killinsun/20131031/20131031033838.png" alt="f:id:killinsun:20131031033838p:image" /></a>
 
 その他,KeynoteやiMovie、iPhotoなど、新バージョンになってから
 酷い言われよう。
