@@ -3,10 +3,11 @@ ID: 103
 post_title: >
   Reconfigure media server(or client)
   certification setting.
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=103
+permalink: >
+  https://blog.killinsun.com/2018/07/reconfigure-media-serveror-client-certification-setting/
 published: true
 post_date: 2018-07-26 11:01:02
 ---
@@ -61,4 +62,4 @@ Copy and paste generated token.
 </ol>
 For more details, check official support page.
 
-<a href="https://www.veritas.com/support/en_US/article.000127129" target="_blank" rel="noopener">How to manually obtain a host ID Certificate.</a>
+<a href="https://www.veritas.com/support/en_US/article.000127129" target="_blank" rel="noopener noreferrer">How to manually obtain a host ID Certificate.</a>
