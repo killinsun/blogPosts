@@ -5,7 +5,8 @@ post_title: >
 author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=384
+permalink: >
+  https://blog.killinsun.com/2019/01/i-joined-casuallt-at-engineers_lt-and-gave-a-presentation/
 published: true
 post_date: 2019-01-11 10:03:18
 ---
@@ -416,7 +417,7 @@ T: モデルケースを作ることから始めよう。
 TwitterでDMください。
 
 ### リンク
-<a href="https://madowindahead.info/2019/01/nagashi/" rel="noopener" target="_blank">カジュアルLT大会に参加　#engineers_lt</a>
-<a href="https://kabukawa.hatenablog.jp/entry/2019/01/11/164039" rel="noopener" target="_blank">カジュアルLT大会 #1</a>
+<a href="https://madowindahead.info/2019/01/nagashi/" rel="noopener noreferrer" target="_blank">カジュアルLT大会に参加　#engineers_lt</a>
+<a href="https://kabukawa.hatenablog.jp/entry/2019/01/11/164039" rel="noopener noreferrer" target="_blank">カジュアルLT大会 #1</a>
 
 /以上
