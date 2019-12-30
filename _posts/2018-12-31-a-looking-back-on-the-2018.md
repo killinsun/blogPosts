@@ -1,10 +1,11 @@
 ---
 ID: 278
 post_title: 2018年振り返り
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=278
+permalink: >
+  https://blog.killinsun.com/2018/12/a-looking-back-on-the-2018/
 published: true
 post_date: 2018-12-31 11:52:24
 ---
