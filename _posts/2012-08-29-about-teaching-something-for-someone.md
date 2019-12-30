@@ -1,10 +1,11 @@
 ---
 ID: 151
 post_title: 人に教えるということ
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=151
+permalink: >
+  https://blog.killinsun.com/2012/08/about-teaching-something-for-someone/
 published: true
 post_date: 2012-08-29 23:39:27
 ---
