@@ -3,10 +3,11 @@ ID: 172
 post_title: >
   HackerJapan
   2013年５月号のやられサーバー01がMacで起動できなかった話
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=172
+permalink: >
+  https://blog.killinsun.com/2013/04/i-could-not-deploing-a-target-server-01-on-my-macos/
 published: true
 post_date: 2013-04-10 01:52:16
 ---
