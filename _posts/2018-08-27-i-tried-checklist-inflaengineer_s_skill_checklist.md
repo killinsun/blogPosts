@@ -2,10 +2,11 @@
 ID: 109
 post_title: >
   「インフラエンジニアのスキルチェックリスト」をやってみた
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=109
+permalink: >
+  https://blog.killinsun.com/2018/08/i-tried-checklist-inflaengineer_s_skill_checklist/
 published: true
 post_date: 2018-08-27 13:28:12
 ---
