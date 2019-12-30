@@ -1,10 +1,11 @@
 ---
 ID: 147
 post_title: くずびより
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=147
+permalink: >
+  https://blog.killinsun.com/2012/08/fucking-days/
 published: true
 post_date: 2012-08-07 20:03:36
 ---
@@ -19,7 +20,7 @@ post_date: 2012-08-07 20:03:36
 <li><span class="hatena-asin-detail-label">発売日:</span> 2009/03/27</li>
 <li><span class="hatena-asin-detail-label">メディア:</span> Blu-ray</li>
 <li><span class="hatena-asin-detail-label">購入</span>: 4人 <span class="hatena-asin-detail-label">クリック</span>: 29回</li>
-<li><a href="http://d.hatena.ne.jp/asin/B001KO4IWG" target="_blank">この商品を含むブログ (28件) を見る</a></li>
+<li><a href="http://d.hatena.ne.jp/asin/B001KO4IWG" target="_blank" rel="noopener noreferrer">この商品を含むブログ (28件) を見る</a></li>
 </ul>
 </div>
 <div class="hatena-asin-detail-foot"></div>
