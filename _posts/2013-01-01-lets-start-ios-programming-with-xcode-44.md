@@ -2,10 +2,11 @@
 ID: 150
 post_title: >
   XCode4.4を使ってiOSプログラミングをはじめよう
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=150
+permalink: >
+  https://blog.killinsun.com/2013/01/lets-start-ios-programming-with-xcode-44/
 published: true
 post_date: 2013-01-01 00:00:00
 ---
