@@ -1,10 +1,11 @@
 ---
 ID: 176
 post_title: LPIC Level2用　named.confメモ
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=176
+permalink: >
+  https://blog.killinsun.com/2013/05/note-named-conf-for-lpic-level2/
 published: true
 post_date: 2013-05-16 10:42:23
 ---
