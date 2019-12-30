@@ -1,10 +1,11 @@
 ---
 ID: 156
 post_title: 今、入門本を買うべきなの？
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=156
+permalink: >
+  https://blog.killinsun.com/2013/03/is-this-a-time/
 published: true
 post_date: 2013-03-10 00:00:00
 ---
