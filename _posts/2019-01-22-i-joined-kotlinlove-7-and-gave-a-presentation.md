@@ -6,7 +6,8 @@ post_title: >
 author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=436
+permalink: >
+  https://blog.killinsun.com/2019/01/i-joined-kotlinlove-7-and-gave-a-presentation/
 published: true
 post_date: 2019-01-22 22:13:02
 ---
@@ -106,7 +107,7 @@ gradleに依存関係追加してあげる必要がある
 
 
 ### 談義: Paging Libraryの基本について理解してみた by ichi-katoさん
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/kqIWUciCoq0a0j" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ichirokato5/paging-library-128667289" title="Paging Libraryの基本的な使い方について" target="_blank">Paging Libraryの基本的な使い方について</a> </strong> from <strong><a href="https://www.slideshare.net/ichirokato5" target="_blank">ichirokato5</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/kqIWUciCoq0a0j" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ichirokato5/paging-library-128667289" title="Paging Libraryの基本的な使い方について" target="_blank" rel="noopener noreferrer">Paging Libraryの基本的な使い方について</a> </strong> from <strong><a href="https://www.slideshare.net/ichirokato5" target="_blank" rel="noopener noreferrer">ichirokato5</a></strong> </div>
 大体APIから１００件ほどのデータを取得したとき、
 RecyclerViewで表示させていると、ユーザがみてない範囲は無駄になる。
 ユーザがスクロールした時に、表示された範囲のみ取得してくるライブラリ。
