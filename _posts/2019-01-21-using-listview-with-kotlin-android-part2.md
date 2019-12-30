@@ -4,7 +4,8 @@ post_title: '【Android App with Kotlin #4】ListViewを使う(2)'
 author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=431
+permalink: >
+  https://blog.killinsun.com/2019/01/using-listview-with-kotlin-android-part2/
 published: true
 post_date: 2019-01-21 08:01:12
 ---
