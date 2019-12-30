@@ -2,10 +2,11 @@
 ID: 328
 post_title: >
   まだWordPress5.xのエディタで消耗しているの？
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=328
+permalink: >
+  https://blog.killinsun.com/2019/01/have-you-been-tired-of-new-wordpress-editor/
 published: true
 post_date: 2019-01-06 14:36:18
 ---
