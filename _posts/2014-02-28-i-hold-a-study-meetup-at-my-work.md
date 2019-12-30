@@ -5,7 +5,7 @@ author: 首無しキリン
 post_excerpt: ""
 layout: post
 permalink: >
-  https://blog.killinsun.com/2014/02/i-hold-an-event/
+  https://blog.killinsun.com/2014/02/i-hold-a-study-meetup-at-my-work/
 published: true
 post_date: 2014-02-28 13:00:00
 ---
