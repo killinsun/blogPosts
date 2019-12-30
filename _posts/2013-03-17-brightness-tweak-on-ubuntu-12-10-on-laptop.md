@@ -2,10 +2,11 @@
 ID: 170
 post_title: >
   Ubuntu12.10　ノートPCで画面の明るさ調整
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=170
+permalink: >
+  https://blog.killinsun.com/2013/03/brightness-tweak-on-ubuntu-12-10-on-laptop/
 published: true
 post_date: 2013-03-17 23:24:11
 ---
