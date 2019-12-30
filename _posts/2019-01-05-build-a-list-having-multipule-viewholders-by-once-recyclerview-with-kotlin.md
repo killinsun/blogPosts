@@ -3,10 +3,11 @@ ID: 286
 post_title: >
   RecyclerView Adapter
   一つに対して複数のViewHolderを持つリストを作成する
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=286
+permalink: >
+  https://blog.killinsun.com/2019/01/build-a-list-having-multipule-viewholders-by-once-recyclerview-with-kotlin/
 published: true
 post_date: 2019-01-05 17:03:37
 ---
