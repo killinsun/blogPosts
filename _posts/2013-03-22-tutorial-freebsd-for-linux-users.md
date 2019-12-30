@@ -1,10 +1,11 @@
 ---
 ID: 171
 post_title: LinuxユーザーのFreeBSD入門メモ
-author: killinsun
+author: 首無しキリン
 post_excerpt: ""
 layout: post
-permalink: https://blog.killinsun.com/?p=171
+permalink: >
+  https://blog.killinsun.com/2013/03/tutorial-freebsd-for-linux-users/
 published: true
 post_date: 2013-03-22 01:32:16
 ---
@@ -42,7 +43,7 @@ FreeBSDでは、パッケージ管理？の方法にportsというものを使�
 カテゴライズされてた。
 
 だが、インストールされてなかったので、入れる。
-<blockquote># fetch <a href="ftp://ftp.freebsd.org/pub/FreeBSD/ports/ports/ports.tar.gz" target="_blank" rel="noopener">ftp://ftp.freebsd.org/pub/FreeBSD/ports/ports/ports.tar.gz</a>
+<blockquote># fetch <a href="ftp://ftp.freebsd.org/pub/FreeBSD/ports/ports/ports.tar.gz" target="_blank" rel="noopener noreferrer">ftp://ftp.freebsd.org/pub/FreeBSD/ports/ports/ports.tar.gz</a>
 # tar -zxvf ./ports.tar.gz -C /usr/</blockquote>
 &nbsp;
 <h5>アップデート</h5>
