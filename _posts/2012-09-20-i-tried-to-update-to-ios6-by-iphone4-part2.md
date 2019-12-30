@@ -6,7 +6,7 @@ author: 首無しキリン
 post_excerpt: ""
 layout: post
 permalink: >
-  https://blog.killinsun.com/2012/09/i-tried-update-to-ios6-by-iphone4/
+  https://blog.killinsun.com/2012/09/i-tried-to-update-to-ios6-by-iphone4-part2/
 published: true
 post_date: 2012-09-20 02:06:58
 ---
